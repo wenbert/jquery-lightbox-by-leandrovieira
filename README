@@ -1,0 +1,7 @@
+This is: http://leandrovieira.com/projects/jquery/lightbox/
+With a very simple addition: A "More >" link after the description of the image.
+The URL of the "More >" is taken from the "alt" in the link (a href) tag.
+
+example:
+
+<a title="This is a description with a 'More >' link at the end." alt="http://blog.ekini.net" class="lightbox" href="./images/sample_02.png">Sample 02 (with external link)</a>

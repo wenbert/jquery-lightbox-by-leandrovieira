@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>jquery lightbox sample with alt for more link</title>
+<script type="text/javascript"
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="./js/jquery.lightbox-0.5.wenbert.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.lightbox').lightBox(); 
+    });
+</script>
+<link rel="stylesheet" type="text/css" href="./css/jquery.lightbox-0.5.css" media="screen" />
+</head>
+<body>
+<div style="margin: auto; border: 1px solid #3d3d3d; width: 400px; padding: 10px; font-family: Helvetica, Arial, sans-serif; text-align: center;">
+    <h2>Click on the links below to test</h2>
+    [<a class="lightbox" href="./images/sample_01.png">Sample 01</a>] 
+    [<a title="This is a description with a 'More >' link at the end." alt="http://blog.ekini.net" class="lightbox" href="./images/sample_02.png">Sample 02 (with external link)</a>]
+    <p>
+    Tip: View the source code of this HTML file.
+    </p>
+</div>
+
+</body>
+</html>
